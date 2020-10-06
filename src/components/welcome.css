@@ -1,0 +1,83 @@
+.welcome-section{
+    padding:194px 0 198px;
+}
+.btn-row{
+    margin-bottom:91px;
+    text-align: center;
+}
+.btn{
+    margin: 0 15px;
+}
+.y-btn{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    background-color: #F29400;
+    border-color: #F29400;
+    padding: 15px 35px;
+    line-height: 1.6;
+    font-size: 17px;
+    border-radius: 50px;
+}
+.y-btn:hover{
+    color:#fff;
+}
+.y-btn:hover img{
+float:left;
+}
+.b-btn{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-style: normal;
+    background-color: #0F3E8A !important;
+    border: 1px solid #0F3E8A !important;
+    color: white;
+    padding: 15px 25px;
+    line-height: 1.6;
+    font-size: 17px;
+    border-radius: 50px;
+}
+.b-btn:hover{
+    color:#fff;
+}
+.b-btn:hover img{
+float:left;
+}
+.welcome-content>h3{
+    font-family: 'Lato';
+    font-weight: normal;
+    font-style: normal;
+    font-size:17px;
+    color:#F29400;
+    margin-bottom: 38px;
+  }
+  @media (max-width: 1200px) { 
+    .welcome-section {
+        padding: 100px 0 100px;
+    }
+  }
+@media (max-width: 992px) { 
+    .welcome-section {
+        padding: 70px 0 100px;
+    }
+}
+@media (max-width: 768px) { 
+    .welcome-section {
+        padding: 60px 0 100px;
+    }
+}
+@media (max-width: 576px) { 
+    .welcome-section {
+        padding: 60px 0 100px;
+    }
+    .y-btn{
+        float:none;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .b-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}

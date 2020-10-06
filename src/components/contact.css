@@ -1,0 +1,108 @@
+.contact-section{
+    margin-top: 245px;
+    background-color: rgb(15, 62, 138);
+    color: white;
+    position: relative;
+}
+.contact-section:before {
+    content: "";
+    width: 2px;
+    height: 155px;
+    background-image: -webkit-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(15,62,138) 100%);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    z-index: 140;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 520px;
+}
+.contact-wrapper {
+    padding: 120px 0px 90px;
+}
+.contact-section:after {
+    content: "";
+    background-image: url("../assets/img/after.svg");
+    width: 187px;
+    height: 80px;
+    margin-top: 39px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    z-index: 140;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #879FC5;
+    color: #879FC5;
+    width: 45%;
+    margin: 10px;
+    padding: 10px 0;
+}
+textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #879FC5;
+    color: #879FC5;
+    width: 90%;
+    margin: 10px;
+  
+}
+.get-a-quote h2{
+    color:#fff;
+}
+.get-a-quote p{
+    color:#fff;
+    margin-bottom:70px;
+}
+.social-contact ul{
+    list-style-type: none;
+    display:inline-flex;
+}
+.social-contact ul li{
+    margin-right:25px;
+}
+.fa{
+    font-size: 20px;
+    color:#fff;
+}
+.fa-google-plus-g:before {
+    content: "\f0d5";
+}
+.fa-linkedin-in:before {
+    content: "\f0e1";
+}
+.contact-wrapper button{
+    float:right;
+}
+@media (max-width: 1200px) { 
+    .contact-section {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 992px) { 
+    .contact-section:before{
+        display: none;
+    }
+}
+@media (max-width: 768px) { 
+    .contact-section:before{
+        display: none;
+    }
+    .contact-section {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 576px) { 
+    .contact-section:before{
+        display: none;
+    }
+    .contact-section {
+        margin-top: 100px;
+    }
+}

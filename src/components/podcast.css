@@ -1,0 +1,42 @@
+.podcast-section{
+    border-top: 1px solid #ffffffa6;
+    background-color: rgb(15, 62, 138);
+    padding: 70px 0px;
+}
+form.example input[type=text] {
+    padding: 15px 120px 15px 48px;
+    font-size: 17px;
+    border: 1px solid #abbcd6;
+    width: 100%;
+    background: repeat;
+    position: relative;
+    border-radius: 7px;
+    height: 67px;
+    margin: 0;
+}
+form.example button {
+    width: 20%;
+    padding: 13px;
+    background: #40b856;
+    color: white;
+    font-size: 17px;
+    border: navajowhite;
+    border-radius: 7px;
+
+    float: right;
+    top: -50px;
+    margin-top: -60px;
+    margin-right: 6px;
+}
+.podcast-section h5{
+    color:#fff !important;
+    text-align:center;
+    margin-bottom: 40px;
+}
+form.example {
+    margin: auto;
+}
+.example span img {
+    margin-bottom: -92px !important;
+    padding: 10px;
+}

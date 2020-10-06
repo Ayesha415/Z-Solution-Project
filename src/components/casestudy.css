@@ -1,0 +1,134 @@
+.casestudy{
+    padding: 256px 0px 167px 6px;
+    background-color: #F4F4F4;
+}
+
+.casestudy-img{
+    width: 372px;
+    height:500px;
+}
+.casestudy-img img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.casestudy-media-body {
+    padding: 62px 26px;
+    height:500px;
+    background-color:#fff;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #F29400;
+    border-color: #F29400;
+    width: 188px;
+    height: 50px;
+    line-height: 1.6;
+    font-size: 17px;
+    /* padding: 15px 32px; */
+    border-radius: 50px;
+    margin: 0px 10px;
+
+}
+.slick-prev:before {
+    content:"";
+    background-image: url('../assets/img/pre.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: none;
+    color: transparent !important;
+    font-size: 30px;
+    line-height: 1;
+}
+.slick-next:before {
+    content:"";
+    background-image: url('../assets/img/next.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: none;
+    color: transparent !important;
+    font-size: 30px;
+    line-height: 1;
+}
+.slick-prev:before {
+    content: '←';
+}
+.casestudy-ul{
+    color:#F29400;
+    display: inline-flex;
+}
+.casestudy-ul li{
+    margin:0 20px;
+}
+.media-btn{
+    position: absolute; 
+    right: -34px
+}
+.slider-btn{
+    position: absolute; 
+    right: -34px
+}
+.speacialized-title p{
+    margin-bottom: 70px;
+}
+
+@media (max-width: 1200px) { 
+    .slick-prev {
+        left: 0 !important;
+    }
+    .slick-next {
+        right: 0 !important;
+    }
+}
+@media (max-width: 992px) { 
+    .slick-prev {
+        left: 0 !important;
+    }
+    .slick-next {
+        right: 0 !important;
+    }
+}
+@media (max-width: 768px) { 
+    .media {
+        display: contents;
+    }
+    .casestudy-img {
+
+        margin: auto;
+    }
+    .casestudy-media-body {
+        padding: 5px 10px;
+        height: auto;
+    }
+    .slick-prev {
+        left: 0 !important;
+    }
+    .slick-next {
+        right: 0 !important;
+    }
+    .casestudy {
+        padding: 100px 0px 50px 6px;
+    }
+}
+@media (max-width: 576px) { 
+    .media {
+        display: contents;
+    }
+    .casestudy-img {
+
+        margin: auto;
+    }
+    .casestudy-media-body {
+        padding: 5px 10px;
+        height: auto;
+    }
+    .casestudy {
+        padding: 100px 0px 50px 6px;
+    }
+    /* button.slick-arrow.slick-next{
+        display: none;
+    }
+    button.slick-arrow.slick-next{
+        display: none;
+    } */
+}

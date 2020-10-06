@@ -1,0 +1,191 @@
+  .img-z img
+   {
+     width: 70%;
+     display: flex;
+     justify-content: center;
+   }
+     .img-z  
+   { 
+     display: flex;
+     justify-content: center;
+   }
+   .header-section
+   {
+   background-image:url('../assets/img/header-bg.png');
+   background-position: top;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 800px;
+   }
+   .img-banner{
+       background-image: url('../assets/img/lang.png');
+       background-repeat: no-repeat;
+       background-position: top right;
+       width: 100%;
+       margin-top: 40px;
+   }
+   .img-banner img{
+     width: 100%;
+     height:100%;
+   }
+   .img-banner img{
+       z-index: 1;
+       position: relative;
+    }
+   .banner-content {
+       margin-top:28px;
+    }
+   .banner{
+       position: relative;
+    }
+   .banner-content  h1{
+       color: rgb(255, 255, 255);
+       text-transform: uppercase;
+    }
+   .banner-content  p{
+       font-size: 30px;
+       color: rgb(255, 255, 255);
+    }
+    .contact{
+      border-radius:50px;
+      outline:none;
+      width: 156px;
+    }
+    /* .navbar {
+      padding: 53px 36px 0;
+    } */
+    /* @media (min-width: 1920px){
+      .img-banner{
+        width: 1437px;
+        height:706px;
+      }
+      .img-banner img{
+        width: 100%;
+        height:100%;
+      }
+    } */
+    .navbar-dark .navbar-toggler{
+      border:none;
+      right:0;
+    }
+    /* Menu Dropdown Panel */
+   .head-menu{
+     float:right;
+   }
+    .head-menu-panel{
+      position: relative;
+    }
+    .head-menu-panel>.nav-bar-menu{
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 320px;
+      height: 100%;
+      z-index: 131;
+      box-shadow: -1px 0 5px rgba(0, 0, 0, 0.30);
+      list-style: none;
+      background-color: #0E3D88 !important;
+    }
+    .head-menu-panel>.nav-bar-menu>li{
+      padding:20px 10px;
+    }
+    .head-menu-panel>.nav-bar-menu>li>a{
+      color:#fff !important;
+      
+    }
+    .head-menu-panel>.nav-bar-menu>li:hover{
+      background-color:#F29400 !important;
+    }
+    .head-menu-panel>.nav-bar-menu>li>a:hover{
+      text-decoration: none;
+    }
+    .panel-close-btn{
+      position: relative;
+      height: 40px;
+    }
+    .panel-close-btn>a{
+      font-size: 28px;
+      line-height: 28px;
+      color: #FFFFFF !important;
+      background: #f29400;
+      border: none;
+      border-radius: 4px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 3px 9px;
+      margin: 3px 0;
+    }
+    
+    .head-menu-panel>.nav-bar-menu>li{
+      display: block;
+      list-style: none;
+    }
+    .navbar-expand-sm .navbar-toggler {
+      display: contents !important;
+  }
+  
+    @media (max-width: 1200px) { 
+        .header-section
+        {
+        background-image:url('../assets/img/header-bg.png');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+        }
+        .img-banner{
+          background-image: url('../assets/img/lang.png');
+          background-repeat: no-repeat;
+          background-position: top right;
+          margin: auto;
+          height: 600px;
+          width: 950px;
+      }
+    
+     }
+     @media (max-width: 992px) { 
+      .img-banner{
+        background-image: url('../assets/img/lang.png');
+        background-repeat: no-repeat;
+        background-position: top right;
+        margin: auto;
+        height: 500px;
+        width: 740px;
+    
+    }
+    }
+    @media (max-width: 768px) { 
+
+      .img-banner{
+        margin: auto;
+        height: 250px;
+        width: 350px;
+    
+    }
+    .navbar-brand img{
+      width:70%;
+    }
+    }
+    @media (max-width: 576px) { 
+      .img-banner{
+        margin: auto;
+        height: 250px;
+        width: 400px;
+    }
+    /* .navbar {
+      padding: 20px 0px 0;
+     } */
+     .banner-content  h1{
+       font-size: 44px;
+     }
+     .banner-content p {
+      font-size: 22px;
+     }
+     .contact-btn{
+       display:none;
+     }
+     .navbar-brand img{
+       width:60%;
+     }
+    }

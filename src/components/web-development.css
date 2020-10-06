@@ -1,0 +1,135 @@
+.web-section {
+    /* position: relative;
+    overflow: hidden; */
+}
+.web-content{
+    margin-top: 100px;
+}
+.web-text{
+    position: absolute;
+    left: 145px;
+    z-index: 1;
+    margin-top: 48px;
+}
+.web-img {
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgb(238, 238, 238);
+    border-radius: 50%;
+    background-color: rgb(238, 238, 238);
+    width: 392px;
+    height: 392px;
+    z-index: 91;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: 10px 355px -140px auto;
+    overflow: hidden;
+}
+
+.web-img:after {
+    content: "";
+    background-image: url("../assets/img/shape.svg");
+    height: 770px;
+    width: 821px;
+    position: absolute;
+    background-size: cover;
+    /* margin: auto; */
+    /* transform: translate(-50%,-50%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 13px;
+    right: 134px;
+}
+.web-wrapper{
+    margin-top:255px;
+}
+.speacialized-title h1{
+    color:#0F3E8A;
+}
+.web-img img{
+    width:100%;
+}
+.web-text h2>span{
+    display:block;
+}
+.text-green{
+    color: #458D10;
+}
+.special-content button{
+    float:none;
+}
+.special-content{
+    padding-top:200px;
+}
+
+@media (max-width: 1200px) { 
+
+}
+@media (max-width: 992px) { 
+    .web-img:after{
+        display:none;
+    }
+    .web-img{
+        margin: auto;
+    }
+    .web-text{
+        position: relative;
+        left: 10px;
+    }
+    .special-content {
+        padding-top: 50px;
+    }
+}
+@media (max-width: 768px) { 
+    .web-img:after{
+        display:none;
+    }
+    .web-img{
+        margin: auto;
+    }
+    .web-text{
+        position: relative;
+        left: 10px;
+    }
+    .special-content {
+        padding-top: 50px;
+    }
+    .mobile-wrapper {
+        padding: 478px 0px 10px 0px;
+        margin-top: -400px;
+    }
+    .web-wrapper {
+        margin-top: 100px;
+    }
+    .web-content {
+        margin-top: 0;
+    }
+}
+@media (max-width: 576px) { 
+    .web-img:after{
+        display:none;
+    }
+    .web-img{
+        margin: auto;
+    }
+    .web-text{
+        position: relative;
+        left: 10px;
+    }
+    .special-content {
+        padding-top: 50px;
+    }
+    .mobile-wrapper {
+        padding: 478px 0px 10px 0px;
+        margin-top: -400px;
+    }
+    .web-wrapper {
+        margin-top: 100px;
+    }
+    .web-content {
+        margin-top: 0;
+    }
+}
